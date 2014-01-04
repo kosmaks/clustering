@@ -3,3 +3,4 @@
 *.hi
 curve*
 clust
+clust.o
