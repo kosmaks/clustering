@@ -32,4 +32,4 @@ $ cat input.txt | ./clust 47 Complete
 Пример работы
 =============
 
--- тут пикча типо
+![alt tag](https://raw.github.com/kosmaks/clustering/master/screenshot.png)
