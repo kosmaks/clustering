@@ -113,6 +113,6 @@ main = do
   putStrLn $ "Read " ++ (show $ length list) ++ " vertices."
   putStrLn $ "Doing " ++ (show $ mutations options) ++ " mutations (first parameter)."
   putStrLn $ "Mutation type: " ++ (show $ linkType options) ++ 
-             " (posible values: Single, Compete, UPGMA, WPGMA)."
+             " (posible values: Single, Complete, UPGMA, WPGMA)."
 
   plotClusters $ clusters $ mutateSeq (linkType options) (mutations options) dm
