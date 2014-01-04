@@ -8,9 +8,9 @@
 
 Из зависимостей только gnuplot, поэтому без кабалов обошлось.
 
-`bash
+```bash
 $ make # лол
-`
+```
 
 Как запустить
 =============
@@ -19,15 +19,15 @@ $ make # лол
 
 Через runhaskell:
 
-`bash
+```bash
 $ cat input.txt | runhaskell clust.hs 47 Complete
-`
+```
 
 Скомпилированную версию:
 
-`bash
+```bash
 $ cat input.txt | ./clust 47 Complete
-`
+```
 
 Пример работы
 =============
